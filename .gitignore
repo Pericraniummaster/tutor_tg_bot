@@ -1,0 +1,4 @@
+# Sensitive files
+.env
+calendar-credentials.json
+cakendar-credentials.json:Zone.Identifier
