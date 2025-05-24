@@ -10,7 +10,7 @@ bot.add_custom_filter(custom_filters.StateFilter(bot))
 start.register_handlers(bot)
 booking.register_handlers(bot)
 cancellation.register_handlers(bot)
-admin.register_handlers(bot)
+#admin.register_handlers(bot)
 
 if __name__ == "__main__":
     bot.infinity_polling()
