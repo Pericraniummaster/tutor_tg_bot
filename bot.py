@@ -1,7 +1,7 @@
 from telebot import TeleBot
 from config import BOT_TOKEN
 from telebot import custom_filters
-from handlers import start, booking, cancellation, admin
+from handlers import start, booking, cancellation
 
 bot = TeleBot(BOT_TOKEN)
 bot.add_custom_filter(custom_filters.StateFilter(bot))

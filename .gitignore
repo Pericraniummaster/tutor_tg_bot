@@ -3,3 +3,4 @@
 .gitignore
 calendar-credentials.json
 calendar-credentials.json:Zone.Identifier
+__pycache__
